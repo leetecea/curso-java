@@ -1,0 +1,33 @@
+package fundamentos;
+
+public class NotacaoPonto {
+	public static void main(String[] args) {
+		String s = "Bom dia, X!";
+
+		s =s.replace("X", "Princesa");
+		s = s.toUpperCase();
+		s = s.concat("!!!");
+		
+		
+		System.out.println(s);
+		
+		System.out.println("Let".toLowerCase());
+		
+		String x = "Como??".toUpperCase();
+		System.out.println(x);
+		
+		String y = "Bom dia X"
+				.replace("X", "Leo")
+				.toLowerCase()
+				.concat("!!!");
+		System.out.println(y);
+		
+		
+		
+		// Tipos primitivos não tem o operador "."
+		// Não possuem comportamentos e atributos
+		int a  = 3;
+		// única coisa que o tipo primitivo armazena é o própio valor.
+		System.out.println(a);
+	}
+}

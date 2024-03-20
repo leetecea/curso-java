@@ -1,0 +1,18 @@
+package fundamentos;
+
+public class TiposPrimitivos {
+	public static void main(String[] args) {
+		//Informações do funcionario
+		
+		// Tipos numéricos int
+		byte anosDeEmpresa = 23;
+		short numeroDeVoos = 54;
+		int id = 5859595;
+		long pontosAcumulados = 3_234_845_223L; 
+		// colocar L no final sinaliza que é um literal
+		// do tipo Long
+		// se o literal passa do range/capacidade um int
+		// você coloca L no final
+		
+	}
+}

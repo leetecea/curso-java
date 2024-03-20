@@ -7,10 +7,10 @@ public class Temperatura {
 //		 (°F - 32) x 5/9 = °C
 		
 		double fahrenheit = 65;
-		final int diferenca = 32;
-		final double fator = 5.0/9.0;
+		final int AJUSTE = 32;
+		final double FATOR = 5.0/9.0;
 		
-		double celsius = (fahrenheit - diferenca) * fator;
+		double celsius = (fahrenheit - AJUSTE) * FATOR;
 		System.out.println("Temperatura: " + celsius + "°C");
 		
 		

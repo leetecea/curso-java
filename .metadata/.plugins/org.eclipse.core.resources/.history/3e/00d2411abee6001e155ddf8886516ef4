@@ -1,0 +1,18 @@
+package fundamentos;
+
+public class TipoString {
+	public static void main(String[] args) {
+		System.out.println("Olá pessoal".charAt(2));
+		
+		String s = "Boa tarde";
+		// com tipo String não é possível alterar o valor da variável
+		// String é imutavel
+		s = s.toUpperCase();
+		
+		s = "Bom dia!"; // nesse caso uma nova string é criada 
+						// e s referencia essa nova string
+		
+		System.out.println(s.concat("!!"));
+		System.out.println(s.startsWith("Boa"));
+	}
+}

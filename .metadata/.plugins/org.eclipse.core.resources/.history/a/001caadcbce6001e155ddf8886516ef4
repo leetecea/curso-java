@@ -1,0 +1,20 @@
+package fundamentos;
+
+import java.util.Date;
+
+//imports ficam fora da classe
+
+// Ctrl + shif + O -> Organiza os imports, retira imports não usados e adiciona 
+public class Import {
+	public static void main(String[] args) {
+		
+		java.lang.String b = "boa tarde!";
+		System.out.println(b);
+		
+		Date d = new Date();
+		
+		System.out.println(d);
+		
+//		JButton botao = new JButton();
+	}
+}
