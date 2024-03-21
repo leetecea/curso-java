@@ -1,0 +1,24 @@
+package fundamentos.exercicios;
+
+import java.util.Scanner;
+
+public class TemperaturaFahrenheit {
+
+	/** 1. Criar um programa que leia a temperatura em Celsius e converta para Fahrenheit. */
+
+	public static void main(String[] args) {
+		// (°F - 32) x 5/9 = °C
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.println("Informe a temperatura em Fahrenheit: ");
+		double temperaturaF = entrada.nextDouble();
+		
+		double resultado = (temperaturaF - 32) * (5/9);
+		
+		System.out.print("Temperatura convertida para Celsius:  "+ resultado);
+		
+		entrada.close();
+		
+	}
+
+}

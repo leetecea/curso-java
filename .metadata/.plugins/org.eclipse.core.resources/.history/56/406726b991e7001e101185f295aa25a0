@@ -1,0 +1,7 @@
+package fundamentos.exercicios;
+
+public class TemperaturaCelsiusParaF {
+	public static void main(String[] args) {
+		
+	}
+}
