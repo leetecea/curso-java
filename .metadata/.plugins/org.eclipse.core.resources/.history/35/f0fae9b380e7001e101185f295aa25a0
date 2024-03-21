@@ -1,0 +1,38 @@
+package fundamentos.operadores;
+
+public class DesafioLogicos {
+	public static void main(String[] args) {
+		// trabalho na terça 
+		// trabalho na quinta
+		
+		// trabalho de terça OU quinta deu certo: tv de 32' + tomar sorvete
+		// os dois deram certo: comprar tv 50' + sorvete
+		
+		// caso nenhum trabalho de certo: ficar em casa, sem tv e sorvete (mais saudavel por nao tomar sorvete - negação lógica)
+		
+		
+		boolean trabalhoTerça = true;
+		boolean trabalhoQuinta = false;
+		
+		boolean comprouTv50 = trabalhoQuinta && trabalhoTerça;
+		boolean comprouTv32 = trabalhoQuinta ^ trabalhoTerça;
+		boolean tomouSorvete = comprouTv32 ^ comprouTv50;
+		
+		
+		System.out.println("Comprou TV 50\":" + comprouTv50);
+	
+//		System.out.println("Se true: vamos comprar TV 50' e tomar sorvete" );
+//		System.out.println(trabalhoTerça && trabalhoQuinta);
+//		
+//		System.out.println("Se true: vamos comprar TV 32' e tomar sorvete" );
+//		System.out.println(trabalhoTerça || trabalhoQuinta);
+//		
+//		System.out.println("Se true: vamos comprar TV 32' e tomar sorvete" );
+//		System.out.println(trabalhoTerça ^ trabalhoQuinta);
+//		
+//		System.out.println("Se true: tomou sorvete e ficou menos saudável" );
+//		System.out.println(!tomouSorvete);
+	
+		
+	}
+}
