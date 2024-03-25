@@ -1,0 +1,17 @@
+package controle;
+
+public class Continue { // Interrompe a repetição atual e retorna para uma nova
+	public static void main(String[] args) {
+		for ( int i = 0; i < 10; i++) {
+			 if (i % 2 == 1) {
+				 continue; // interrompe a repetição p/ começar a próxima - nesse caso pula a linha do System.out.println(i);
+				 			// e retorna para linha do for começando uma nota iteração
+				 			
+			 }
+			 System.out.println(i);
+		}
+	}
+}
+
+// Dica: Não usar o BREAK e o CONTINUE com muita frequência
+// Como eles desviam o fluxo da sua aplicação, podem deixar o fluxo mais difícil de ser compreendido
