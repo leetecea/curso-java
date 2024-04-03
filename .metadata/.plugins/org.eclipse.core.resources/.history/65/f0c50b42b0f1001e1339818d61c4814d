@@ -1,0 +1,20 @@
+package collections;
+
+import java.util.HashSet;
+import java.util.Set;
+
+public class ConjuntoComportado {
+	public static void main(String[] args) {
+		
+		Set<String> listaAprovados = new HashSet<>(); // <Strin> -> define qual é o tipo
+		listaAprovados.add("Ana");						// que o conjunto vai ter		
+		listaAprovados.add("Carlos");	
+		listaAprovados.add("Lucas");	
+		listaAprovados.add("João");
+		
+		for (String candidato: listaAprovados) {
+			System.out.println(candidato);
+		}
+	}
+
+}

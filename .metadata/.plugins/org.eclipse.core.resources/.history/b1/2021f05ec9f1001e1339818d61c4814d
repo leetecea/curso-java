@@ -1,0 +1,11 @@
+package oo.composicao;
+
+// Relacionamento -> 1 para 1
+public class Motor {
+	double fatorInjecao = 1;
+	
+	int giros() {
+		return fatorInjecao * 300;
+	}
+	
+}

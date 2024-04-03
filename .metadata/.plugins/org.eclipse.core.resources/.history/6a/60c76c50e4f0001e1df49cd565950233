@@ -1,0 +1,18 @@
+package classe.Desafio;
+
+public class Pessoa {
+	public static void main(String[] args) {
+		String nome;
+		double peso;
+		
+		
+		double Comer () {
+			Comida d1 = new Comida();
+			Pessoa d2 = new Pessoa();
+			
+			double pesoFinal = d2.
+			
+		}
+		
+	}
+}

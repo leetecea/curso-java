@@ -1,0 +1,23 @@
+package arrays;
+
+import java.util.Scanner;
+
+public class Desafio {
+	public static void main(String[] args) {
+		
+		System.out.println("Quantas notas você deseja informar?");
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		int qtdNotas = entrada.nextInt();
+		
+		double[] notas = new notas[qtdNotas];		
+		for(double nota: )
+		
+		
+
+		entrada.close();
+		
+		
+	}
+}

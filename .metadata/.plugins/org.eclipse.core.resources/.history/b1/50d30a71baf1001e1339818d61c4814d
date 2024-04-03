@@ -1,0 +1,25 @@
+package collections;
+
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class Fila {
+	
+	public static void main(String[] args) {
+		
+		Queue<String> fila = new LinkedList<>();
+		// Offer e Add -> os dois adicionam elementos na fila
+		
+		// Diferença é o comportamento que ocorre quando a fila está cheia!
+		fila.add("Ana"); // -> lançará uma exceção caso a fila esteja cheia
+		fila.offer("Bia"); // -> retorna falso caso a fila esteja cheia.
+		fila.add("Carlos");
+		fila.offer("Daniel");
+		fila.add("Rafaela");
+		fila.offer("Gui");
+		
+		
+		
+	}
+	
+}

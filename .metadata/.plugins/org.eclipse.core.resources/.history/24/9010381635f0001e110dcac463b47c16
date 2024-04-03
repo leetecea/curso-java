@@ -1,0 +1,33 @@
+package classe;
+
+// crie classe com 3 atributos - mes, dia e ano
+// dentro da ClasseDataTeste instancie 2 datas
+
+public class DesafioData {
+	int dia;
+	int mes;
+	int ano;
+	
+	DesafioData(){
+//		dia = 1;
+//		mes = 1;
+//		ano = 1970;
+		this(1, 1, 1970);
+	}
+	DesafioData(int dia, int mes, int ano){
+		this.dia = dia;
+		this.mes =  mes;
+		this.ano = ano;
+		
+		// 1º uso do THIS -> usar para referenciar o objeto atual 
+	}
+	String obterDataFormata () {
+		 return String.format("%s/%s/%s", dia, mes, ano);
+	}
+	
+	static void teste() {
+//		this.dia = 3;
+	// não é possível utilizar o THIS em um método static, pois o THIS é uma das instancias da classe
+	}
+	
+}

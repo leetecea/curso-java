@@ -1,0 +1,29 @@
+package collections;
+
+import java.util.HashSet;
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+public class ConjuntoComportado {
+	public static void main(String[] args) {
+		
+//		Set<String> listaAprovados = new HashSet<>(); // <String> -> define qual é o tipo
+													// que o conjunto vai ter
+		SortedSet<String> listaAprovados = new TreeSet<>(); // garante a ordem de inserção dos elementos
+		listaAprovados.add("Ana");		// SortedSet: 						
+		listaAprovados.add("Carlos");	
+		listaAprovados.add("Lucas");	
+		listaAprovados.add("João");
+		
+		for (String candidato: listaAprovados) {
+			System.out.println(candidato);
+		}
+		
+		SortedSet<Integer> nums = new HashSet<>(); // garante a ordem de inserção dos elementos
+		nums.add("Ana");		// SortedSet: 						
+		nums.add("Carlos");	
+		nums.add("Lucas");	
+		nums.add("João");
+	}
+
+}
