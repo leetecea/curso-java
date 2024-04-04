@@ -1,0 +1,8 @@
+package oo.composicao.desafio;
+
+public class Item {
+	
+	String nome;
+	
+	ArrayList<Item> itens = new I
+}

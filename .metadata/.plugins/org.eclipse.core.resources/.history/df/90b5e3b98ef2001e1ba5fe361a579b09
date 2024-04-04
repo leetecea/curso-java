@@ -1,0 +1,22 @@
+package oo.composicao.desafio;
+
+import oo.composicao.umPraMuitos.Item;
+
+//1 cliente
+//2 compras 
+//cada compra -> 2 itens
+public class CompraTeste {
+	public static void main(String[] args) {
+		Compra compra1 = new Compra();
+		Compra compra2 = new Compra();
+		compra1.add(new Item("Caneta", 12, 5.99));
+		compra1.add(new Item("Borracha", 5, 2.99));
+		compra1.add(new Item("Caderno", 3, 12.69)); 
+		
+		compra2.add(new Item("Caneta", 12, 5.99));
+		compra2.add(new Item("Borracha", 5, 2.99));
+		compra2.add(new Item("Caderno", 3, 12.69)); 
+		
+		
+	}
+}

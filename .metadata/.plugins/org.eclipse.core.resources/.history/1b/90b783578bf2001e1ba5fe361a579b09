@@ -1,0 +1,13 @@
+package oo.composicao.desafio;
+
+import java.util.ArrayList;
+
+public class Cliente {
+	String nome;
+	
+	Cliente(String nome){
+		this.nome = nome;
+	}
+	List<Compra> itens = new List<Compra>();
+	
+}

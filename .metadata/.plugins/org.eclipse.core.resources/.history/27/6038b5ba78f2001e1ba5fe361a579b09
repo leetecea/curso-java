@@ -1,0 +1,16 @@
+package oo.composicao;
+
+public class Item {
+	
+	String nome;
+	int quantidade;
+	double preco;
+
+	// criar um construtor que já recebe os 3 atributos acima
+	
+	Item(nome, quantidade, preco){
+		this.nome = nome;
+		this.quantidade = quantidade;
+		this.preco = preco;
+	}
+}
