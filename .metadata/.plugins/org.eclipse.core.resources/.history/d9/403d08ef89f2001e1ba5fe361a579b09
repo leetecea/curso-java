@@ -1,0 +1,9 @@
+package oo.composicao.desafio;
+
+public class Cliente {
+	String nome;
+	
+	Cliente cliente (String nome){
+		this.nome = nome;
+	}
+}

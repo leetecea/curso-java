@@ -1,0 +1,13 @@
+package oo.composicao.desafio;
+
+public class Compra {
+	String nome;
+	Cliente cliente;
+	
+	Compra (String nome){
+		this.nome = nome;
+	}
+	
+	
+	
+}

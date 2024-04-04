@@ -1,0 +1,14 @@
+package oo.composicao.desafio;
+
+public class Item {
+	
+	String nome;
+	int quantidade;
+	Produto produto = new Produto();
+	
+	Item(String nome, int quantidade, double preco){
+		this.nome = nome;
+		this.quantidade = quantidade;
+		
+	}
+}

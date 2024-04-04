@@ -1,0 +1,11 @@
+package oo.composicao;
+
+public class CursoTeste {
+	Aluno aluno1 = new Aluno("João");
+	Aluno aluno2 = new Aluno("Maria");
+	Aluno aluno3 = new Aluno("José");
+	
+	Curso curso1 = new Curso("Java Completo");
+	Curso curso2 = new Curso("Web 2024");
+	Curso curso3 = new Curso("React Native");
+}
