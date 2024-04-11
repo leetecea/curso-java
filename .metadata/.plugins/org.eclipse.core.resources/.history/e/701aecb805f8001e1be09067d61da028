@@ -1,0 +1,9 @@
+package streams;
+
+public class CriandoStreams {
+	public static void main(String[] args) {
+		
+		Consumer<String> print = System.out::print;
+		
+	}
+}

@@ -1,0 +1,19 @@
+package streams;
+
+import java.util.function.Consumer;
+import java.util.stream.Stream;
+
+public class CriandoStreams {
+	public static void main(String[] args) {
+		
+		Consumer<String> print = System.out::print;
+		
+		Stream<String> langs = Stream.of("Java ", "JS ", "Pytho\n");
+		langs.forEach(print);
+		
+		String[] maisLangs = {"Lisp ", "Go ", "Perl\n" };
+		
+		Stream.of(maisLangs).forEach(print);;
+		
+	}
+}

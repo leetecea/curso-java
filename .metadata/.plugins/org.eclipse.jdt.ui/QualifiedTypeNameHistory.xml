@@ -11,5 +11,17 @@
     <fullyQualifiedTypeName name="classe.PrimeiroTrauma"/>
     <fullyQualifiedTypeName name="classe.DesafioData"/>
     <fullyQualifiedTypeName name="java.net.Socket"/>
+    <fullyQualifiedTypeName name="oo.composicao.Item"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.function.UnaryOperator"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.util.function.Function"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="java.util.function.Predicate"/>
 </qualifiedTypeNameHistroy>
