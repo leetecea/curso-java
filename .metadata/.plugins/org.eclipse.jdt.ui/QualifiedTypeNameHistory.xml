@@ -11,5 +11,17 @@
     <fullyQualifiedTypeName name="classe.PrimeiroTrauma"/>
     <fullyQualifiedTypeName name="classe.DesafioData"/>
     <fullyQualifiedTypeName name="java.net.Socket"/>
+    <fullyQualifiedTypeName name="classe.Produto"/>
+    <fullyQualifiedTypeName name="oo.composicao.desafio.Produto"/>
+    <fullyQualifiedTypeName name="lambdas.Produto"/>
+    <fullyQualifiedTypeName name="java.util.function.UnaryOperator"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="streams.Voluntario"/>
+    <fullyQualifiedTypeName name="java.util.function.Predicate"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="streams.Aluno"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="excecao.Aluno"/>
+    <fullyQualifiedTypeName name="excecao.personalizadaB.StringVaziaException"/>
+    <fullyQualifiedTypeName name="excecao.personalizadaB.NumeroForaIntervaloException"/>
 </qualifiedTypeNameHistroy>

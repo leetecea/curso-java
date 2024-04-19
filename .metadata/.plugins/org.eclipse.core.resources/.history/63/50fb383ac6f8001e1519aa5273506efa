@@ -1,0 +1,7 @@
+package streams;
+
+public class DesafioFilter {
+	// 2 funções lambdas para fazer 2 filtros diferentes
+	// usar map no final
+	// filter().filter().map()
+}

@@ -1,0 +1,12 @@
+package lambdas;
+
+public class CalculoTeste2 {
+	public static void main(String[] args) {
+// função/método que não tem nome:
+// associei o resultado da função numa variável soma do tipo Calculo
+		Calculo calculo = (x, y) -> { return x + y; };
+		
+		System.out.println(calculo.executar(2, 5));
+		
+	}
+}

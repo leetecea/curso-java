@@ -1,7 +1,0 @@
-package oo.composicao;
-
-public class CursoTeste {
-	Aluno aluno1 = new Aluno("João");
-	Aluno aluno2 = new Aluno("Maria");
-	Aluno aluno3 = new Aluno("José");
-}

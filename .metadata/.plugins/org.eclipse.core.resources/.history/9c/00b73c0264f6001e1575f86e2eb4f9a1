@@ -1,0 +1,5 @@
+package oo.abstrato;
+
+public abstract class Cachorro extends Animal {
+
+}

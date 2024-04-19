@@ -1,0 +1,16 @@
+package streams;
+
+public class Voluntarios {
+	final String nome;
+	int qtdVoluntariados; 
+	String estado;
+	
+	public Voluntarios(String nome, int qtdVoluntariados, String estado) {
+		this(nome, qtdVoluntariados, estado)
+		super();
+		// TODO Auto-generated constructor stub
+	} 
+	
+	
+	
+}

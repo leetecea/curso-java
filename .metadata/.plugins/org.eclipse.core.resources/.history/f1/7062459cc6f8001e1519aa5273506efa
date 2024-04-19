@@ -1,0 +1,21 @@
+package streams;
+
+import java.util.Arrays;
+
+public class DesafioFilter {
+	// 2 funções lambdas para fazer 2 filtros diferentes
+	// usar map no final
+	// filter().filter().map()
+	
+	public static void main(String[] args) {
+		
+		Voluntario v1 = new Voluntario("Roberta", 5, "BA");
+		Voluntario v2 = new Voluntario("Roberta", 5, "BA");
+		Voluntario v3 = new Voluntario("Roberta", 5, "BA");
+		Voluntario v4 = new Voluntario("Roberta", 5, "BA");
+		Voluntario v5 = new Voluntario("Roberta", 5, "BA");
+
+		
+		List<Voluntario> voluntarios = Arrays.asList(v1, v2, v3, v4, v5);
+	}
+}

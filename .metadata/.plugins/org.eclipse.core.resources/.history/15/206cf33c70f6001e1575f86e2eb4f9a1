@@ -1,0 +1,17 @@
+package lambdas;
+
+import java.util.function.BinaryOperator;
+
+public class CalculoTeste3 {
+	public static void main(String[] args) {
+// função/método que não tem nome:
+// associei o resultado da função numa variável soma do tipo Calculo
+		BinaryOperator<Double> calc = (x, y) -> { return x + y; };
+		
+		System.out.println(calc.apply(2, 5));
+		
+		calc = (x,y) -> x * y; 
+		System.out.println(calc.executar(2, 5));
+		
+	}
+}

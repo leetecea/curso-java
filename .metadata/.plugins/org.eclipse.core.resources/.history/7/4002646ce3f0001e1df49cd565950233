@@ -1,7 +1,0 @@
-package classe.Desafio;
-
-public class DesafioPessoa {
-	public static void main(String[] args) {
-		
-	}
-}

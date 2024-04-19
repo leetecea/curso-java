@@ -1,0 +1,18 @@
+package lambdas;
+
+@FunctionalInterface
+// notaçãp para informar que usará a interface no contexto de lambda
+// força utilizar um único método
+public interface Calculo {
+// 	def de um método dentro de uma interface obrigatoriamente tem que ser public
+	// e é por padrão abstract
+	double executar(double a, double b);
+	
+	default String legal(double a, double b) {
+		return executar(a,b);
+	}
+	
+	static String muitoLegal() {
+		return "muito legal";
+	}
+}
