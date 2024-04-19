@@ -5,7 +5,7 @@ import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import br.com.cod3er.cm.excecao.ExplosaoException;
+import br.com.cod3r.cm.excecao.ExplosaoException;
 
 public class CampoTeste {
 private Campo campo;
