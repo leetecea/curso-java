@@ -31,4 +31,8 @@ public class DesafioMap {
 			.map(binarioParaInteiro)
 			.forEach(System.out::println); // op. terminal
 	}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 34891fdfb7f42ee02e3dcb48adda6a6c0b28674b

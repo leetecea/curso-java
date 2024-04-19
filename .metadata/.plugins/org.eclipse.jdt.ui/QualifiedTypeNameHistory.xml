@@ -11,6 +11,7 @@
     <fullyQualifiedTypeName name="classe.PrimeiroTrauma"/>
     <fullyQualifiedTypeName name="classe.DesafioData"/>
     <fullyQualifiedTypeName name="java.net.Socket"/>
+<<<<<<< HEAD
     <fullyQualifiedTypeName name="classe.Produto"/>
     <fullyQualifiedTypeName name="oo.composicao.desafio.Produto"/>
     <fullyQualifiedTypeName name="lambdas.Produto"/>
@@ -24,4 +25,21 @@
     <fullyQualifiedTypeName name="excecao.Aluno"/>
     <fullyQualifiedTypeName name="excecao.personalizadaB.StringVaziaException"/>
     <fullyQualifiedTypeName name="excecao.personalizadaB.NumeroForaIntervaloException"/>
+=======
+    <fullyQualifiedTypeName name="oo.composicao.Item"/>
+    <fullyQualifiedTypeName name="java.util.Locale"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.stream.Stream"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.function.UnaryOperator"/>
+    <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="java.util.function.Function"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
+    <fullyQualifiedTypeName name="java.util.function.Predicate"/>
+    <fullyQualifiedTypeName name="br.com.cod3er.cm.excecao.ExplosaoException"/>
+>>>>>>> 34891fdfb7f42ee02e3dcb48adda6a6c0b28674b
 </qualifiedTypeNameHistroy>

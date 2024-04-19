@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 1712577965224	Rename local variable 'j2'
 1712585051560	Move compilation unit
 1712585065337	Move compilation unit
@@ -6,3 +7,7 @@
 1712667141060	Copy compilation unit
 1712923882178	Rename compilation unit 'Voluntarios.java'
 1712926220016	Rename type 'Reduce'
+=======
+1712834388469	Rename type 'desafio'
+1712840413581	Rename type 'CriandoStream'
+>>>>>>> 34891fdfb7f42ee02e3dcb48adda6a6c0b28674b

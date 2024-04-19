@@ -29,4 +29,8 @@ public class CriandoStreams {
 //Tem o seed (semente inicial, ponto inicial) 
 		Stream.iterate(0, n -> n + 1).forEach(println);
 	}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 34891fdfb7f42ee02e3dcb48adda6a6c0b28674b

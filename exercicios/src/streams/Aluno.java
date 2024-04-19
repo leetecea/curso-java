@@ -51,4 +51,8 @@ public class Aluno {
 			return false;
 		return true;
 	}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 34891fdfb7f42ee02e3dcb48adda6a6c0b28674b
