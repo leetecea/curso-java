@@ -26,7 +26,7 @@ public class AlterarNomePessoa {
 		Connection conexao = FabricaConexao.getConexao();
 		PreparedStatement stmt = conexao.prepareStatement(selectSQL);
 		stmt.setInt(1, codigo);
-		ResultSet r = stmt.executeQuery();
+		ResultSet r = stmt.executeQuery(); // para fazer a respoquisa e guardar no r
 		
 		if(r.next()) {
 			Pessoa p = new Pessoa(r.getInt(1), r.getString(2));
@@ -39,6 +39,7 @@ public class AlterarNomePessoa {
 			
 			stmt.close();
 			
+			// update
 			stmt = conexao.prepareStatement(updateSQL);
 			stmt.setString(1, novoNome);
 			stmt.setInt(2, codigo);

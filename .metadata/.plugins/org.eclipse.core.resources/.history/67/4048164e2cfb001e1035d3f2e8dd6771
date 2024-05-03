@@ -1,6 +1,0 @@
-package excecao.personalizadaA;
-
-// validação que não deixa um número ser negativo
-public class NumeroNegativoException extends RuntimeException{
-	
-}

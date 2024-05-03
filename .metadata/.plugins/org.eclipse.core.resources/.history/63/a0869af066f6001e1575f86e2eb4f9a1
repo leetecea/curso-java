@@ -1,7 +1,0 @@
-package lambdas;
-
-public class Soma implements Calculo {
-	public double executar() {
-		return a+b
-	}
-}

@@ -1,6 +1,0 @@
-package lambdas;
-
-public interface Calculo {
-// 	def de um método dentro de uma interface obrigatoriamente tem que ser public
-	double executar(double a, double b);
-}
