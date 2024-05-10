@@ -5,6 +5,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
 @Entity
@@ -20,6 +21,18 @@ public class Assento {
 
 	@Column(name = "prod_preco", nullable = false, precision = 11, scale = 2) // 11 digitos, 2 casas decimais 0.00
 	private Double preco;
+
+	@OneToOne(mappedBy = "assento") // a relação OneToOne foi mapeada pelo atributo assento que pertence a classe Cliente
+	// não irá gerar uma nova coluna no BD
+	private Cliente cliente; // criar relacionamento bidirecional
+	
+	public Cliente getCliente() {
+		return cliente;
+	}
+
+	public void setCliente(Cliente cliente) {
+		this.cliente = cliente;
+	}
 
 	public Assento() { // construtor padrão é importante para o JPA conseguir gerar os objetos
 

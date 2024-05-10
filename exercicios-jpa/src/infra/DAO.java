@@ -72,6 +72,7 @@ public class DAO<E> {
 		return query.getResultList();
 	}
 	
+	// Named Query
 	public List<E> consultar(String nomeConsulta, Object... params) {
 		TypedQuery<E> query = em.createNamedQuery(nomeConsulta, classe);
 		
@@ -82,6 +83,7 @@ public class DAO<E> {
 		return query.getResultList();
 	}
 	
+	// Named Native Query
 	public E consultarUm(String nomeConsulta, Object... params) {
 		List<E> lista = consultar(nomeConsulta, params);
 		return lista.isEmpty() ? null : lista.get(0);

@@ -19,9 +19,10 @@ public class Cliente {
 
 	private String nome;
 
-	@OneToOne(cascade = CascadeType.PERSIST)
-	@JoinColumn(name = "assento_id", unique = true)
-	private Assento assento;
+	@OneToOne(cascade = CascadeType.PERSIST) // operação em cascata 
+	@JoinColumn(name = "assento_id", unique = true) // define o que o id será unico 
+	// mapear uma coluna que representa uma relação entre duas tabelas
+	private Assento assento; //é aqui que está definido a relação OneToOne
 
 	public Cliente() {
 

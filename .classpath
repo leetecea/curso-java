@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="campo-minado/src"/>
+	<classpathentry kind="src" path="campo-minado/test"/>
+	<classpathentry kind="src" path="clinica/src"/>
+	<classpathentry kind="src" path="exercicios/src"/>
+	<classpathentry kind="src" path="exercicios-jpa/src"/>
+	<classpathentry kind="src" path="exerciciossb/exerciciossb/src/main/java"/>
+	<classpathentry kind="src" path="exerciciossb/exerciciossb/src/test/java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17"/>
+	<classpathentry kind="src" path="faculdade/src"/>
+	<classpathentry kind="src" path=".apt_generated">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
