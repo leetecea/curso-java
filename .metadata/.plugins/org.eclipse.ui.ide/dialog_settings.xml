@@ -99,6 +99,9 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\letic\OneDrive\Área de Trabalho\planodesaude\api-tabela"/>
+			<item value="C:\Users\letic\OneDrive\Área de Trabalho\planodesaude\core"/>
+			<item value="C:\Users\letic\OneDrive\Área de Trabalho\curso-java"/>
 			<item value="C:\Users\letic\OneDrive\Área de Trabalho\planodesaude\api-faturamento"/>
 			<item value="C:\Users\letic\OneDrive\Área de Trabalho\planodesaude\api-autorizacao"/>
 		</list>
